@@ -19,5 +19,5 @@ description: Guarda en el repositorio ClaudeAgents algo aprendido (procedimiento
    de cada regla. Sé breve; mejor 40 líneas útiles que 300 genéricas.
 5. Añade una línea al `## Historial` de la skill: `- AAAA-MM-DD: qué se añadió`.
 6. Si la skill es de un agente concreto, añádela a su campo `skills:`.
-7. Actualiza la tabla *Skills* de `README.md`.
+7. Actualiza la tabla *Skills* de `README.md`, incluida la columna "Agentes que la usan".
 8. Ejecuta `scripts/sync.sh "Skill <nombre>: <resumen>"`.

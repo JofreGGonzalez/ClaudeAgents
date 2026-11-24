@@ -23,6 +23,6 @@ Nombres siempre en `kebab-case`, sin acentos ni espacios.
    `guardar-skill` para guardarlo como skill nueva o ampliar una existente.
 3. Tras cualquier cambio en agentes, skills o memoria: **commit y push**
    (`scripts/sync.sh "mensaje"`), para que esté disponible en los demás ordenadores.
-4. Actualiza el índice de `README.md` (sección *Agentes* / *Skills*) al añadir o
+4. Actualiza el índice de `README.md` (sección *Agentes* / *Skills*, incluida la columna "Agentes que la usan", que sale del campo `skills:` de cada agente) al añadir o
    eliminar algo.
 5. Nunca guardes secretos (API keys, contraseñas, tokens) en agentes, skills o memoria.
