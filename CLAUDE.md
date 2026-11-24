@@ -11,7 +11,6 @@ poder usarlo desde cualquier ordenador.
 | Agentes (subagentes) | `.claude/agents/<nombre>.md` | Frontmatter YAML + prompt de sistema |
 | Skills (conocimiento reutilizable) | `.claude/skills/<nombre>/SKILL.md` | Frontmatter YAML + instrucciones |
 | Memoria que acumula cada agente | `.claude/agent-memory/<nombre>/` | Lo gestiona Claude Code (campo `memory:`) |
-| Plantillas | `templates/` | No se cargan; solo sirven de base |
 
 Nombres siempre en `kebab-case`, sin acentos ni espacios.
 

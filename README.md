@@ -9,9 +9,8 @@ agentes entrenados en cualquier ordenador.
 ```
 .claude/
   agents/          # Un archivo .md por agente (subagentes de Claude Code)
-  skills/          # Una carpeta por skill, con su SKILL.md
-  agent-memory/    # Memoria persistente que acumula cada agente
-templates/         # Plantillas de agente y de skill
+  skills/          # Una carpeta por skill: SKILL.md (instrucciones) + README.md (resumen)
+  agent-memory/    # Una carpeta por agente: README.md (descripción, skills, aprendizaje) + memoria
 scripts/
   install.sh       # Instalación en Linux/macOS
   install.ps1      # Instalación en Windows
