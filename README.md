@@ -67,4 +67,5 @@ El instalador:
 |---|---|
 | `crear-agente` | Crea un agente nuevo con la plantilla y lo sube al repo |
 | `guardar-skill` | Guarda lo aprendido como skill (nueva o ampliada) y lo sube al repo |
+| `paleta-diba-dashboards` | Paleta Diba (aprox.) y patrones para dashboards Qlik Sense de la Diputació de Barcelona |
 | `qlik-dashboards-preferencias` | Preferencias del usuario en dashboards Qlik Sense (KPIs arriba, paleta corporativa, idioma) |
