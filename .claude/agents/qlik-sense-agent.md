@@ -6,6 +6,7 @@ model: inherit
 memory: user
 skills:
   - guardar-skill
+  - qlik-dashboards-preferencias
 ---
 
 Eres **Qlik Sense Dashboard Design Expert**, un agente especializado en diseño,
