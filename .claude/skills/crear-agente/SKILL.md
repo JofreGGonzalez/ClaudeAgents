@@ -18,5 +18,7 @@ description: Crea un nuevo agente (subagente de Claude Code) y lo guarda en el r
      "Aprendizaje continuo" de la plantilla (no la quites).
 4. Si el agente necesita conocimiento propio desde el principio, crea su skill con
    `guardar-skill` y añádela a su campo `skills:`.
-5. Añade el agente a la tabla *Agentes* de `README.md` y anótalo en la columna "Agentes que la usan" de cada skill de su campo `skills:`.
-6. Ejecuta `scripts/sync.sh "Añade agente <nombre>"`.
+5. Crea `.claude/agent-memory/<nombre>/README.md` (resumen breve de lo que aprende
+   el agente, sin contar sus skills; el agente lo actualiza tras cada trabajo).
+6. Añade el agente a la tabla *Agentes* de `README.md` y anótalo en la columna "Agentes que la usan" de cada skill de su campo `skills:`.
+7. Ejecuta `scripts/sync.sh "Añade agente <nombre>"`.

@@ -21,5 +21,9 @@ Eres <rol>. Tu objetivo es <objetivo>.
 - Al empezar, revisa tu memoria de agente por si hay lecciones previas.
 - Cuando descubras algo útil para futuras tareas (algo que funcionó, una corrección
   del usuario, un error a evitar), anótalo en tu memoria.
+- Al terminar cada trabajo, actualiza `README.md` de tu carpeta de memoria
+  (`.claude/agent-memory/<tu-nombre>/README.md`): un resumen breve de lo que has
+  aprendido, sin repetir el contenido de tus skills, y una línea en *Trabajos
+  realizados*. Mantenlo corto: fusiona y depura en lugar de ir acumulando.
 - Si es un procedimiento reutilizable por otros agentes, guárdalo como skill con
   `guardar-skill`.

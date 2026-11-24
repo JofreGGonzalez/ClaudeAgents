@@ -53,6 +53,7 @@ El instalador:
 - *"Crea un agente que …"* → Claude usa la skill `crear-agente`.
 - *"Aprende esto / guárdalo como skill"* → Claude usa la skill `guardar-skill`.
 - Los agentes con `memory: user` anotan solos sus lecciones en `.claude/agent-memory/`.
+- Cada agente tiene en `.claude/agent-memory/<nombre>/README.md` un resumen breve de lo que ha aprendido (sin contar sus skills), que él mismo actualiza.
 - Para subir cambios a mano: `scripts/sync.sh "mensaje"`.
 
 ## Agentes
