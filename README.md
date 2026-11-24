@@ -59,7 +59,7 @@ El instalador:
 
 | Agente | Descripción |
 |---|---|
-| _(ninguno todavía)_ | |
+| `QlikSenseAgent` | Diseña dashboards de Qlik Sense: mockups/prototipos, sistema de diseño con la paleta corporativa del cliente y especificación para Qlik Sense |
 
 ## Skills
 
