@@ -1,24 +1,27 @@
 # QlikSenseAgent — resumen de lo aprendido
 
-Resumen breve de lo que este agente ha aprendido de sus trabajos (no incluye el
-contenido de sus skills). Lo actualiza el propio agente al terminar cada trabajo.
+Agente especializado en diseño, arquitectura visual y creación de dashboards de
+Business Intelligence con Qlik Sense (prototipos HTML y especificación).
 
-## Aprendizajes
-- **Paletas de organizaciones:** si no puede consultar la web oficial (dominios
-  bloqueados en el sandbox), no debe presentar HEX inventados como oficiales:
-  los marca como aproximados, cita la fuente y pide validarlos con el cliente.
-- **Comparativa en Qlik Sense:** actual y comparativa deben convivir con
-  selecciones distintas; se resuelve con estados alternativos o Set Analysis
-  sobre campos de comparación independientes, no con los mismos filtros.
-- **Límites reales de Qlik Sense** a avisar siempre en la especificación: sin
-  animación de deslizamiento ni tecla Esc, el estilo de los filtros nativos se
-  controla poco, y el panel lateral se repite en cada hoja.
-- **Prototipos HTML:** diseñar a 1920×1080 con escalado proporcional y datos de
-  muestra rotulados; entregar el fragmento sin `<html>/<head>/<body>` cuando se
-  vaya a publicar como artefacto; verificar con una captura antes de entregar.
-- **Mockup ≠ importable:** el HTML es solo un prototipo visual; la
-  especificación sirve para construirlo a mano en Qlik Sense.
+## Skills que usa
+- `qlik-dashboards-preferencias`
+- `guardar-skill`
+
+## Lo aprendido
+Detalle en las notas de esta carpeta (ver `MEMORY.md`). No repite el contenido de las skills.
+- **Paletas:** si no se puede consultar la fuente oficial, los HEX se marcan como
+  aproximados, se cita la fuente y se pide validarlos con el cliente.
+- **Comparativa:** actual y comparativa necesitan selecciones independientes
+  (estados alternativos o Set Analysis), no los mismos filtros.
+- **Límites de Qlik Sense:** avisar siempre en la especificación de lo que el
+  prototipo muestra pero la plataforma no hace de forma nativa.
+- **Prototipos HTML:** 1920×1080 con escalado proporcional, datos de muestra
+  rotulados y fragmento sin `<html>/<head>/<body>` si se publica como artefacto.
+- **Verificación:** comprobar con una captura antes de entregar.
+- **Mockup ≠ importable:** el HTML es solo prototipo visual.
+- **Iteración:** los rediseños de layout (p. ej. mover filtros) deben aplicarse
+  de forma coherente a todas las hojas y a la especificación, no solo al mockup.
 
 ## Trabajos realizados
-- 2026-11-24: dashboard "Satisfacció amb l'esdeveniment" (Diputació de
-  Barcelona), a partir de un esbozo del cliente.
+- 2026-11-24: diseño inicial del prototipo HTML y especificación Qlik Sense de un dashboard de satisfacción con un evento para un cliente público, a partir de un esbozo y capturas.
+- 2026-11-24: rediseño del mismo dashboard moviendo los filtros de la parte superior a un panel lateral izquierdo con navegación entre hojas y panel de filtros desplegable.

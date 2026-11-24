@@ -1,0 +1,4 @@
+- [Comparativa con estados alternativos](comparativa-estados-alternativos.md) — actual vs comparativa con selecciones independientes
+- [Límites de Qlik Sense a avisar](limites-qlik-sense.md) — qué no es nativo aunque el mockup lo muestre
+- [Publicar prototipos HTML](publicar-prototipos-html.md) — fragmento, escala 1920×1080 y datos rotulados
+- [Verificación visual con captura](verificacion-visual-captura.md) — revisar el render antes de entregar
