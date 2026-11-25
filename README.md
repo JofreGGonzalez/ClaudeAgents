@@ -60,11 +60,12 @@ El instalador:
 | Agente | Descripción |
 |---|---|
 | `QlikSenseAgent` | Diseña dashboards de Qlik Sense: mockups/prototipos, sistema de diseño con la paleta corporativa del cliente y especificación para Qlik Sense |
+| `cardmarket-onepiece` | Extrae datos de cartas de One Piece de URLs de Cardmarket y los acumula en un Excel (modelo `sonnet`) |
 
 ## Skills
 
 | Skill | Descripción | Agentes que la usan |
 |---|---|---|
 | `crear-agente` | Crea un agente nuevo con la plantilla y lo sube al repo | _(ninguno; la usa Claude directamente)_ |
-| `guardar-skill` | Guarda lo aprendido como skill (nueva o ampliada) y lo sube al repo | `QlikSenseAgent` |
+| `guardar-skill` | Guarda lo aprendido como skill (nueva o ampliada) y lo sube al repo | `QlikSenseAgent`, `cardmarket-onepiece` |
 | `qlik-dashboards-preferencias` | Preferencias del usuario en dashboards Qlik Sense (KPIs arriba, filtros en panel lateral, paleta corporativa, idioma) | `QlikSenseAgent` |
